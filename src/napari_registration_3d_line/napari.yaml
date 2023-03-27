@@ -3,19 +3,8 @@ display_name: Registration 3D Line
 contributions:
   commands:
     - id: napari-registration-3d-line.make_qwidget
-      python_name: napari_registration_3d_line._widget:ExampleQWidget
-      title: Make example QWidget
-    - id: napari-registration-3d-line.make_magic_widget
-      python_name: napari_registration_3d_line._widget:example_magic_widget
-      title: Make example magic widget
-    - id: napari-registration-3d-line.make_func_widget
-      python_name: napari_registration_3d_line._widget:example_function_widget
-      title: Make example function widget
+      python_name: napari_registration_3d_line._widget:MainWidget
+      title: Make Main Widget
   widgets:
     - command: napari-registration-3d-line.make_qwidget
-      display_name: Example QWidget
-    - command: napari-registration-3d-line.make_magic_widget
-      display_name: Example Magic Widget
-    - command: napari-registration-3d-line.make_func_widget
-      autogenerate: true
-      display_name: Example Function Widget
+      display_name: Registration 3D
